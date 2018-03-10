@@ -6,11 +6,11 @@ guess = int(temp)
 while guess != secret:
     temp = input("猜错了，请重新输入：")
     guess = int(temp);
-    if guess == 8:
+    if guess == secret:
         print("这都能猜中")
         print("猜中也没啥")
     else:
-        if guess > 8:
+        if guess > secret:
             print("哥，大了大了~~~")
         else:
             print("小了，小了~~~~")
