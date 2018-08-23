@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 import random
 secret = random.randint(1,10)
 print('---------my my----------')
