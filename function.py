@@ -63,3 +63,8 @@ print(add_end())
 x,y = 4,5
 small = x if x<y else y
 print(small)
+
+#list append()  extend() 参数是一个列表   insert(1,'牡丹')  list 3个插入方法
+#删掉的方法  remove()  del member[1]  pop()
+# list 切片
+
